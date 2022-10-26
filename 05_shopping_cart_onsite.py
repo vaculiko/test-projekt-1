@@ -44,8 +44,8 @@ while (zbozi := input("ZBOZI: ")) != "q":
     elif potraviny[zbozi][1] == 0:
         print(f"Zbozi --{zbozi}-- uz neni skladem!")
 
-print("kosik", kosik)
-print("potraviny", potraviny)
+print(f"{kosik=}")
+print(f"{potraviny=}")
 
 # TODO DOMA - vypsat hezky obsah nákupního košíku
 # TODO DOMA - sečíst cenu za nákup
